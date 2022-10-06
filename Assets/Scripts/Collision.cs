@@ -9,5 +9,10 @@ public class Collision : MonoBehaviour
         Debug.Log("Crash");
     }
 
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        Debug.Log("trigger enter");
+    }
+
 
 }
